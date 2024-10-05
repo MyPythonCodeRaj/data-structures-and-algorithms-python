@@ -1,5 +1,5 @@
 import unittest
-from data_structures.arrays.single_dimensional_array import SingleDimensionalArray
+from data_structures.arrays import SingleDimensionalArray
 
 class TestSingleDimensionalArray(unittest.TestCase):
     def setUp(self):
