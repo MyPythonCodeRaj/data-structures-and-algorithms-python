@@ -141,9 +141,9 @@ Each directory will contain Python implementations of the respective data struct
    ```
 
 4. **Run tests**:
-   If you want to ensure that your implementation is correct, you can run the tests provided.
+  Run the test suite using `unittest`:
    ```bash
-   pytest tests/unit_tests/test_array.py
+   python -m unittest discover tests/unit_tests/
    ```
 
 ## 🛠️ Contributions
